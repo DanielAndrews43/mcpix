@@ -1,0 +1,113 @@
+
+body{
+    background-color:#F2F2F2;
+}
+
+hr{
+    color:black;
+    background-color:black;
+}
+
+/*Heading CSS*/
+#body{
+    width:1000px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#header{
+    background-color:Gray;
+}
+
+#logo{
+    float:left;
+    width:390px;
+    height:35px;
+    margin:5px
+}
+
+#stats{
+    float:right;
+    margin:5px;
+}
+
+#heading_info{
+    float:right;
+    height:35px;
+    margin:5px;
+}
+
+#menu{
+	width:100%;
+	height:40px;
+    line-height:40px;
+	font-size:16px;
+	text-align:center;
+    clear:both;
+    background-image:url(img/grass.png);
+}
+
+#menu ul{
+    height:100%;
+}
+
+#menu ul li{
+    padding-left:15px;
+    padding-right:15px;
+	display:inline;
+}
+
+#menu ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+#menu ul li a:hover{
+    text-decoration:underline;
+    color:LightGray;
+}
+/*End heading CSS */
+
+/*Index*/
+#pixels{
+    height:1000px;
+    background-image:url(img/bgtile.gif);
+    background-repeat:repeat;
+}
+/*End Index*/
+
+/*Buy Pixels*/
+/*End Buy Pixels*/
+
+/*FAQ*/
+#outer_faq{
+    background-color:LightGray;
+}
+
+#faq{
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    padding:10px;
+    background-color:#a9a9a9;
+}
+
+#faq{
+    font-size:14px;
+}
+
+#faq ol li{
+    font-size:16px;
+}
+
+h4{
+    font-weight:bold;
+}
+/*End FAQ*/
+
+/*Blog*/
+/*End Blog*/
+
+/*Contact*/
+/*End Contact*/
