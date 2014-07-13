@@ -1,4 +1,3 @@
-import zfill
 
 
 filename = "map.txt"
@@ -49,10 +48,9 @@ def write_text():
 		id = str(coords[0]).zfill(4) + str(coords[1]).zfill(4) + str(coords[2]).zfill(4) + str(coords[3]).zfill(4)
 
 		text = '<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coord="' + coord_text + '" ' + \
-			'href="/buy.php?id="' + id + '" title="Buy these pixels!"'
+			'href="/buy.php?id="' + id + '" title="Buy these pixels!"\n'
 
 		map_text.append(text)
-		print text
 	save_file(map_text)
 
 
